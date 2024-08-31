@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    outline: 1px solid red;
+}
+
+body {
+    background-image: url(/fylo-data-storage-component-master/images/bg-mobile.png);
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    margin: 120px 20px;
+    padding: 32px 23px 30px 15px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 12px 60px 10px 5px;
+}
+
+.container > img {
+    margin: 0 15px 30px;
+}
+
+.icons {
+    margin: 0 11px;
+}
+
+.icons img {
+    width: 18px;
+    height: 16px;
+    margin: 0 4px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(229, 57%, 11%);
+}
+
+.wrapper-2 {
+    top: 75%;
+    left: 8.5%;
+    position: absolute;
+    padding: 20px;
+    background: hsl(228, 56%, 26%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
