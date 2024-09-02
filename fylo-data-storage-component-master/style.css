@@ -107,8 +107,28 @@ body {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media screen and (min-width: 768px) {
+    body {
+        background: url(/fylo-data-storage-component-master/images/bg-desktop.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: 200px;
+        background-color: hsl(229, 57%, 11%);
+    }
     .wrapper {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        margin-top: 80px;
     }
+
+    .container {
+        margin: 40px 20px 68px 20px;
+        padding: 32px 70px 25px 15px;
+        border-radius: 12px 90px 12px 12px;
+    }
+
+    .storage-alert {
+        top: -40%;
+    }
+
+
 }
