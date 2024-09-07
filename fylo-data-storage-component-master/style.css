@@ -136,15 +136,17 @@ body {
 
     .storage-alert {
         top: -30%;
-        left: 50%;
+        left: 42.7%;
     }
 
     .arrow {
-        width: 50px;
-        height: 50px;
         position: absolute;
-        top: 10%;
+        top: 1 0%;
+        left: 90%;
         background-color: hsl(0, 100%, 100%);
+        border-left: 20px solid white;
+        border-bottom: 30px solid transparent;
+        /* rotate: -40deg; */
     }
 
 }
