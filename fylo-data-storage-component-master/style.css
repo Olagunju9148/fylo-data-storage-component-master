@@ -43,11 +43,16 @@ body {
 }
 
 .container-2 {
+    color: hsl(229, 7%, 55%);
     margin: 12px 0;
     padding: 35px;
     border-radius: 12px;
     background: hsl(228, 56%, 26%);
     position: relative;
+}
+
+.space {
+    font-weight: 700;
 }
 
 .storage-reader {
@@ -131,10 +136,6 @@ body {
         margin: 40px 20px 68px 20px;
         padding: 32px 70px 25px 15px;
         border-radius: 12px 90px 12px 12px;
-    }
-
-    .container-2 {
-
     }
 
     .storage-alert {
