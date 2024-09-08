@@ -5,14 +5,12 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
+    /* for debugging purpose */
     /* outline: 1px solid red; */
 }
 
 body {
     background-image: url(/fylo-data-storage-component-master/images/bg-mobile.png);
-    /* min-height: 100vh; */
-    /* min-width: 100vw; */
-
     font-size: 14px;
 }
 .wrapper {
@@ -37,8 +35,8 @@ body {
 }
 
 .icons img {
-    width: 25px;
-    height: 23px;
+    width: 42px;
+    height: 40px;
     padding: 10px;
     border-radius: 5px;
     background-color: hsl(229, 57%, 11%);
@@ -92,6 +90,11 @@ body {
     background-color: hsl(0, 100%, 100%);
 }
 
+.left{
+    color: hsl(229, 7%, 55%);
+    font-weight: 400;
+}
+
 .storage-alert p{
     position: relative;
     top: 35%;
@@ -136,17 +139,20 @@ body {
 
     .storage-alert {
         top: -30%;
-        left: 42.7%;
+        left: 40%;
+        border-radius: 10px 10px 0 10px;
     }
 
     .arrow {
         position: absolute;
-        top: 1 0%;
-        left: 90%;
-        background-color: hsl(0, 100%, 100%);
-        border-left: 20px solid white;
-        border-bottom: 30px solid transparent;
-        /* rotate: -40deg; */
+        top: 15%;
+        left: 89%;
+        border-top: 10px solid transparent;
+        border-left: 18px solid white;
+        border-bottom: 20px solid transparent;
+        rotate: -19deg;
+        transform: skew(28deg);
     }
+
 
 }
